@@ -1,0 +1,59 @@
+.trending-container {
+  background-color:rgba(0,0,0,0.89);
+  color: white;
+  padding: 40px 60px;
+}
+
+.trending-title {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.carousel {
+  display: flex;
+  gap:20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+
+  scrollbar-width: none;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  position: relative;
+  min-width: 220px;
+  height: 320px;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.08);
+}
+
+.card-image {
+  width:200px ;
+  height: 120%;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+.rank {
+  position: absolute;
+  bottom: 10px;
+  left: -20px;
+
+  font-size: 120px;
+  font-weight: 900;
+
+  color: black;
+  -webkit-text-stroke: 2px white;
+
+  z-index: 10;
+}

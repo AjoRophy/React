@@ -1,0 +1,53 @@
+.features-section {
+  background:rgba(0,0,0,0.89);
+  padding: 40px 70px;
+  color: white;
+}
+
+.features-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.features-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  flex: 1;
+  min-width: 250px;
+  height: 280px;
+
+  padding: 25px;
+  border-radius: 18px;
+
+  background: linear-gradient(
+    180deg,
+    #1d1b4d 0%,
+    #21102b 100%
+  );
+
+  position: relative;
+}
+
+.feature-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.feature-card p {
+  font-size: 1rem;
+  color: #c7c7c7;
+  line-height: 1.5;
+}
+
+.feature-icon {
+  width: 60px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
